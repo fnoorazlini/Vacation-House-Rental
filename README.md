@@ -6,4 +6,4 @@ C:\laragon\www
 3) Start Laragon
 4) Open your browser (e.g., Google Chrome)
 5) Go to:
-http://localhost/VacationHouseRental-main/
+http://localhost/Vacation-House-Rental-main/
