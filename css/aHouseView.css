@@ -1,0 +1,123 @@
+.in-nav {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 55px; 
+    width: calc(100% - 90px); /* Adjust width to fit within the viewport */
+    position: fixed; /* Fix the element at the top */
+    top: 0; /* Place it at the top */
+    z-index: 998; /* Ensure it's above other content */
+    box-sizing: border-box;
+}
+
+.content_section {
+    margin-top: 120px; /* Adjust margin to create space below fixed .in-nav */
+    margin-left: 220px; /* Align content beside the left nav */
+    padding-top: 50px; /* Add padding to ensure content starts below .in-nav */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 240px); /* Adjust width to fit within viewport */
+    padding-right: 40px; /* Add some padding on the right */
+    box-sizing: border-box;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.actions {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.update-house {
+    background-color: #D9D9D9;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.update-house img {
+    height: 2em;
+    width: auto;
+    padding: 1px;
+}
+
+.house_details_container {
+    background-color: white;
+    color: #16505C;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Reduce the width of the container */
+    max-width: 800px; /* Ensure it doesn't get too wide */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #16505C; /* Background color for the header */
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+    padding: 10px;
+    position: relative; /* Needed for positioning close button */
+}
+
+.container_header h2 {
+    margin: 0;
+    color: white; /* Text color for the header */
+}
+
+.close_button {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.info_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.house_info {
+    width: 60%;
+}
+
+.house_info p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+.info_label {
+    font-weight: bold;
+}
+
+.photos_container {
+    width: 35%;
+}
+
+.house_photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.house_photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #16505C;
+}

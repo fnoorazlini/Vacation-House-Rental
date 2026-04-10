@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #567076 0%, #104854 100%);
+    font-family: "Inter", sans-serif;
+}
+
+
+.content_box {
+    border-radius: 10px;
+    background: linear-gradient(0deg, white 0%, #EFE8E8 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #104854;
+    margin-top: 1%; 
+    margin-left: 30%;;
+    margin-bottom: 20px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.content_box h1 {
+    color: white;
+    background: linear-gradient(0deg, #0B2126 0%, #1d7285 88%);
+    height: 50px; /* Adjust height as needed */
+    line-height: 50px; /* Ensures text is vertically centered */
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 7px 4px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px; 
+    font-size: 25px;
+    padding-left:16px;
+    padding-right:16px;
+}
+
+.content_box p{
+    text-align: center;
+}
+
+.form-group {
+    padding: 5px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.shadow-img {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.edit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFE8E8; 
+    color: #104854;
+    border: 2px solid #104854;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 2px; 
+}
+
+.edit-button img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5)); 
+}
+
+.edit-button:hover{
+    transform: scale(1.07);
+}
+
+.form-control{
+    display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#gender {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#gender label {
+    margin-left: 5px;
+    margin-right: 15px;
+    color: #104854;
+}

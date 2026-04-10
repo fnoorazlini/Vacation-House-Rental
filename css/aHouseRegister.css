@@ -1,0 +1,164 @@
+.in-nav {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 55px; 
+    width: calc(100% - 90px); /* Adjust width to fit within the viewport */
+    position: fixed; /* Fix the element at the top */
+    top: 0; /* Place it at the top */
+    z-index: 998; /* Ensure it's above other content */
+    box-sizing: border-box;
+}
+
+.content_section {
+    margin-top: 120px; /* Adjust margin to create space below fixed .in-nav */
+    margin-left: 220px; /* Align content beside the left nav */
+    padding-top: 50px; /* Add padding to ensure content starts below .in-nav */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 240px); /* Adjust width to fit within viewport */
+    padding-right: 40px; /* Add some padding on the right */
+    box-sizing: border-box;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.registration_container {
+    background-color: white;
+    color: #16505C;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Reduce the width of the container */
+    max-width: 800px; /* Ensure it doesn't get too wide */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.container_header {
+    display: flex;
+    justify-content: center; /* Center the header title */
+    align-items: center;
+    background-color: #16505C; /* Background color for the header */
+    border-radius: 30px; /* Rounded top corners */
+    padding: 10px;
+    position: relative; /* Needed for positioning close button */
+}
+
+.container_header h2 {
+    margin: 0;
+    color: white; /* Text color for the header */
+}
+
+.close_button {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+}
+
+.form_container {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 0 0 10px 10px; /* Rounded bottom corners */
+    margin-top: 0; /* No margin at the top */
+}
+
+.form_container label {
+    display: block;
+    color: #16505C;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form_container input, 
+.form_container select, 
+.form_container textarea {
+    width: calc(100% - 26px); /* Adjust width to fit within the container */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #16505C;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.form_container textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.select_container {
+    position: relative;
+    width: 100%; /* Adjust width to fit within the container */
+}
+
+.select_container select {
+    width: 100%; /* Full width */
+    padding-right: 30px; /* Add padding to make room for arrow */
+    background-color: transparent; /* Set background color */
+    color: #16505C; /* Set text color */
+    border: 3px solid #16505C; /* Border color */
+    border-radius: 30px; /* Border radius */
+    -webkit-appearance: none; /* Remove default styling */
+    -moz-appearance: none; /* Remove default styling */
+    appearance: none; /* Remove default styling */
+}
+
+.select_container::after {
+    content: '▼'; /* Unicode character for the arrow */
+    font-size: 2rem;
+    color: #16505C; /* Arrow color */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-70%); /* Center the arrow vertically */
+    pointer-events: none; /* Ensure the arrow doesn't block clicks */
+}
+
+.upload_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #16505C; /* Change button color to match */
+    color: white;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for button */
+}
+
+.upload_button img {
+    margin-right: 10px;
+}
+
+.uploaded_photos {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.uploaded_image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #16505C;
+}
+
+.form_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form_button {
+    background-color: #16505C; /* Change button color to match */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+}

@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: transparent;
+    z-index: 10;
+}
+
+header .logo img {
+    height: 55px;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-buttons button {
+    margin: 0 40px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #104854;
+    border: none;
+    cursor: pointer;
+}
+
+.header-buttons i {
+    color: black;
+    margin-right: 20px;
+}
+
+.fa-phone{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 80%;
+    background-color: white;
+}
+
+.fa-question{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    width: 18px; /* Adjust width to make it round */
+    height: 18px; /* Adjust height to make it round */
+}
+
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 76.5vh;
+    background-image: url('../image/bg.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 20px;
+    background-color: #104854;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+footer p {
+    flex: 1 100%;
+    text-align: center;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav a {
+    color: white;
+    margin: 0 10px;
+    margin-top: 20px;
+}
+
+footer .logo img {
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.fa-location-dot {
+    color: white; 
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url('../images/bgLogin.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.login-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.login-form {
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.login-form button {
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form button i {
+    margin-right: 10px;
+}

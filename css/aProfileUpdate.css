@@ -1,0 +1,107 @@
+
+.contentUpdate_section {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contentUpdate_section h1{
+    color: white;
+    background: linear-gradient(0deg, #0B2126 0%, #1d7285 88%);
+    width: 50%;
+    height: 40%;
+    font-weight: 700;
+    margin-top: 7%;
+    margin-bottom: 10px; 
+    margin-left: 150px; 
+    text-align: center; 
+    box-shadow: 7px 4px 3px rgba(0, 0, 0, 0.25); 
+    border-radius: 10px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.content_box {
+    width: 60%;
+    height: auto; 
+    border-radius: 26px;
+    background: linear-gradient(0deg, white 0%, #EFE8E8 100%); 
+    box-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    color: #104854;
+    display: flex;
+    align-items: center;
+}
+
+.content_box table {
+    width: 80%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensure table layout is fixed */
+    text-align: left;
+}
+
+.content_box th {
+    font-weight: 700;
+    width: 30%;
+    padding: 8px;
+}
+
+.content_box td {
+    font-weight: 500;
+    width: 60%;
+}
+
+.shadow-img {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.user-icon-container {
+    float: left;
+    margin-right: 2%;
+    display: flex;
+    align-items: left;
+}
+
+.user-icon-container img {
+    height: auto;
+    width: 80%;
+}
+
+.edit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFE8E8; 
+    color: #104854;
+    border: 2px solid #104854;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 2px; 
+}
+
+.edit-button img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 10%;
+    filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.5)); 
+}
+
+.edit-button:hover{
+    transform: scale(1.07);
+}
